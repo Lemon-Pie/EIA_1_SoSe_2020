@@ -71,17 +71,13 @@ section {
     border-radius: 5px;
     margin-bottom: 10px;
     color: white;
-    /* Damit könnte ich eine Speechbubble machen
-    border-top-left-radius: 100px;
-    border-bottom-left-radius: 100px;
-    border-top-right-radius: 100px;
-    */
 }
 
 .article {
     height: 120px;
     margin-top: 15px;
     margin-bottom: 50px;
+    line-height: 1.5;
 }
 
 .article img {
@@ -209,6 +205,23 @@ div.Bilderreihe img {
 }
 
 .Bilderreihe img {
+    float: left;
+    padding: 5px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    border: 1px solid white;
+}
+
+.Parallax {
+    margin: 15px;
+}
+
+.Parallax h1 {
+    color: white;
+    padding-bottom: 10 px;
+}
+
+.Parallax video {
     float: left;
     padding: 5px;
     margin-right: 15px;

@@ -1,0 +1,203 @@
+#wrapper {
+    width: 1000px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+
+
+body {
+    background-image: url("Bilder/bg.png");
+    background-attachment: fixed;
+    background-repeat: repeat;
+}
+
+nav {
+    text-align: center;
+    background-color: #000000;
+    border-radius: 0px 0px 5px 5px;
+    font-size: 13px;
+    position: fixed;
+    right: 127px;
+    top: 0px;
+    padding-right: 30px;
+    padding-left: -20px;
+}
+
+nav ul {
+    list-style-type: none;
+    color: white;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+#home #navigation a.seite1,
+#about #navigation a.seite2,
+#contact #navigation a.seite3 {
+    color: #0E81C2; 
+}
+
+/*
+section {
+    width: 800px;
+    padding: 15px;
+    margin-top: 24px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+*/
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0E81C2;
+}
+
+.container {
+    position: relative;
+    color: white;
+    top: -10px;
+}
+
+.centered {
+    position: absolute;
+    top: 10%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    font-size: 110px;
+    letter-spacing: -17px;
+    color: white;
+
+/*
+    background: url(Bilder/bg.png) no-repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+*/
+
+    margin-top: auto;
+    margin-right: auto;
+}
+
+.Lorem-Ipsum {
+    position: absolute;
+    top: 10%;
+    left: 60%;
+    font-size: 40px;
+    color: white;
+    margin-top: 120px;
+}
+
+.Lorem-Ipsum2 {
+    position: absolute;
+    top: 6%;
+    left: 60%;
+    font-size: 20px;
+    color: white;
+    margin-top: 230px;
+    text-align: left;
+}
+
+.FBIcon {
+    position: absolute;
+    top: 8%;
+    left: 60%;
+    font-size: 30px;
+    color: white;
+    margin-top: 330px;
+    opacity: 0.5;
+}
+
+.FBIcon:hover {
+opacity: 1;
+}
+
+.Foto-Titel {
+    position: absolute;
+    top: 10%;
+    left: 19%;
+    font-size: 30px;
+    color: #0e81c2;
+    margin-top: 500px;
+}
+
+.animation {
+    position: relative;
+    left: 24%;
+    font-size: 30px;
+    color: #0e81c2;
+}
+
+.Kontakt {
+    position: absolute;
+    top: 10%;
+    left: 19%;
+    font-size: 30px;
+    color: #0e81c2;
+    margin-top: 500px;
+}
+
+input[type=text] {
+    font-size: 12px;
+    width: 150%;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    border: none;
+    background-color: #a9acaf;
+    color: white;
+}
+
+textarea {
+    font-size: 12px;
+    width: 170%;
+    height: 30px;
+    padding: 5px 10px 40px ;
+    box-sizing: border-box;
+    color: white;
+    border: none;
+    background-color: #a9acaf;
+    margin: 10px 0;
+}
+
+input[type=button] {
+    font-size: 12px;
+}
+
+.Datenschutz {
+    color: #a9acaf;
+    font-size: 10px;
+}
+
+
+.Datenschutz a{
+    color: #a9acaf;
+    text-decoration: underline;
+}
+
+
+.Datenschutz a:hover {
+    color: #a9acaf;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #a9acaf;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    margin: 4px 0;
+    cursor: pointer;
+}
+
+.about {
+    position: absolute;
+    top: 10%;
+    left: 19%;
+    font-size: 30px;
+    color: #0e81c2;
+    margin-top: 500px;
+}

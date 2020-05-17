@@ -110,6 +110,7 @@ a:hover {
     color: white;
     margin-top: 330px;
     opacity: 0.5;
+    z-index: 100;
 }
 
 .FBIcon:hover {

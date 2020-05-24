@@ -1,0 +1,40 @@
+body {
+    background-image: url("pk5/bg.png");
+    background-attachment: fixed;
+    background-repeat: repeat;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.container * {
+    position: fixed;
+    text-align: left;
+    align-items: center;
+    margin-left: 330px;
+    margin-top: 110px;   
+}
+
+.container h1 {
+    color: white;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 400px;
+}
+
+.row1 {
+    column-count: 3;
+    margin-left: 400px;
+    margin-top: 240px;
+/*    -webkit-column-width:20px; */
+    column-width: 30px;
+    max-width: 500px;
+    min-width: 30px;
+}
+
+.row2 {
+    column-count: 2;
+    margin-left: 400px;
+    margin-top: 350px;
+    column-width: 30px;
+    max-width: 400px;
+    min-width: 30px;
+}

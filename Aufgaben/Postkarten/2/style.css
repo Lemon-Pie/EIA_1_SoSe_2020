@@ -1,0 +1,103 @@
+body {
+    background-image: url("pk2/bg.png");
+    background-attachment: fixed;
+    background-repeat: repeat;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+
+.container * {
+    position: fixed;
+    text-align: left;
+    align-items: center;
+    margin-left: 330px;
+    margin-top: 110px;
+}
+
+.headline { 
+    margin-left: 400px;
+    margin-top:200px;
+    display: inline-block;
+    position: absolute;
+    font-size: 18pt;
+    color: rgb(143, 66, 4);
+}
+
+.muschel1 {
+    position: absolute;
+    display: inline-block;
+    margin-left: 500px;
+    margin-top: 400px;
+    transform: translate(-50%, -50%);
+    opacity: 1.0;
+}
+
+.muschel1:hover {
+    opacity: 0;
+}
+
+.perle1 {
+    position: absolute;
+    display: inline-block;
+    margin-left: 500px;
+    margin-top: 400px;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.perle1:hover {
+    opacity: 1.0;
+}
+
+.muschel2 {
+    position: absolute;
+    display: inline-block;
+    margin-left: 650px;
+    margin-top: 300px;
+    transform: translate(-50%, -50%);
+    opacity: 1.0;
+}
+
+.muschel2:hover {
+    opacity: 0;
+}
+
+.perle2 {
+    position: absolute;
+    display: inline-block;
+    margin-left: 650px;
+    margin-top: 300px;
+    transform: translate(-50%, -50%);
+    opacity: 0; 
+}
+
+.perle2:hover {
+    opacity: 1.0;
+}
+
+.muschel3 {
+    position: absolute;
+    display: inline-block;
+    margin-left: 780px;
+    margin-top: 400px;
+    transform: translate(-50%, -50%);
+    opacity: 1.0;
+
+}
+
+.muschel3:hover {
+    opacity: 0;
+}
+
+.perle3 {
+    position: absolute;
+    display: inline-block;
+    margin-left: 780px;
+    margin-top: 400px;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.perle3:hover {
+    opacity: 1.0;
+}

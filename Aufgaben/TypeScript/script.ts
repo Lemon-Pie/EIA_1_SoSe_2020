@@ -21,7 +21,7 @@ console.log(eu3 + " " + relativeu + eu4);
 console.log(eu5 + " " + growtheu + eu6);
 console.log(eu7 + " " + growthEUabsolute + eu8);
 
-console.groupEnd("Europa");
+console.groupEnd();
 console.log("");
 
 
@@ -49,7 +49,7 @@ console.log(na3 + " " + relativna + na4);
 console.log(na5 + " " + growthna + na6);
 console.log(na7 + " " + growthNAabsolute + na8);
 
-console.groupEnd("Nord Amerika");
+console.groupEnd();
 console.log("");
 
 
@@ -77,7 +77,7 @@ console.log(sa3 + " " + relativsa + sa4);
 console.log(sa5 + " " + growthsa + sa6);
 console.log(sa7 + " " + growthSAabsolute + sa8);
 
-console.groupEnd("Süd Amerika");
+console.groupEnd();
 console.log("");
 
 
@@ -105,7 +105,7 @@ console.log(af3 + " " + relativaf + af4);
 console.log(af5 + " " + growthaf + af6);
 console.log(af7 + " " + growthAFabsolute + af8);
 
-console.groupEnd("Afrika");
+console.groupEnd();
 console.log("");
 
 
@@ -133,7 +133,7 @@ console.log(asi3 + " " + relativasi + asi4);
 console.log(asi5 + " " + growthasi + asi6);
 console.log(asi7 + " " + growthASIabsolute + asi8);
 
-console.groupEnd("Asien");
+console.groupEnd();
 console.log("");
 
 
@@ -161,4 +161,4 @@ console.log(aus3 + " " + relativaus + aus4);
 console.log(aus5 + " " + growthaus + aus6);
 console.log(aus7 + " " + growthAUSabsolute + aus8);
 
-console.groupEnd("Australien");
+console.groupEnd();

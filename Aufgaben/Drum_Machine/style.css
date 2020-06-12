@@ -54,10 +54,9 @@ div.container {
     text-align: center;
 }
 
-body #button1:active {
+body #button1:active, #button2:active, #button3:active, #button4:active, #button5:active, #button6:active, #button7:active, #button8:active, #button9:active {
     animation: none;
     background-color: #fff;
-
 }
 
 img {

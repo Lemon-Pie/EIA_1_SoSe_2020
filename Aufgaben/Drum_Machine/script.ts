@@ -22,7 +22,7 @@ function playSample(soundplay: number) {
 } 
 
 
-// -------------- Teil 2 --------------
+// -------------- Teil 2 -------------- (Grooooßes Dankeschön an die Hiwi Hannah)
 
 function playbeat(): void {
     var index: number = 0;

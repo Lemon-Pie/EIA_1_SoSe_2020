@@ -1,4 +1,3 @@
-"use strict";
 console.group("Europa");
 var europe08 = 4965.7;
 var europe18 = 4209.3;
@@ -118,4 +117,3 @@ console.log(aus3 + " " + relativaus + aus4);
 console.log(aus5 + " " + growthaus + aus6);
 console.log(aus7 + " " + growthAUSabsolute + aus8);
 console.groupEnd();
-//# sourceMappingURL=script.js.map

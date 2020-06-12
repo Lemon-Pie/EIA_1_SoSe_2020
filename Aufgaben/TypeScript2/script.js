@@ -1,4 +1,3 @@
-"use strict";
 // var all18: number = europe18 + na18 + sa18 + af18 + asi18 + aus18;
 // console.log (all18);
 // Europa -------------------------------------------------------------
@@ -361,4 +360,3 @@ console.log(aus7 + " " + growthAUSabsolute + aus8);
 
 console.groupEnd();
 */ 
-//# sourceMappingURL=script.js.map

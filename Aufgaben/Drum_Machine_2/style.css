@@ -1,0 +1,105 @@
+body {
+    background: #000;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: 150px;
+}
+
+div {
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+div.container {
+    margin-top: 60px;
+    padding-top: 10px;
+    border: 5px solid #008080;
+    height: 500px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+#button1:hover, #button2:hover, #button3:hover, #button4:hover, #button5:hover, #button6:hover, #button7:hover, #button8:hover, #button9:hover {
+    opacity: 1;
+    animation: resteffect 1s infinite;
+}
+
+@keyframes resteffect {
+    50% {transform: scale(0.8)}
+    50% {background-color: #ff00ff;}
+}
+
+#button1, #button3, #button7, #button9 {
+    background-color: #6495ed;
+    text-align: center;
+    cursor: pointer;
+}
+
+#button4, #button2, #button6, #button8 {
+    background-color: #663399;
+    text-align: center;
+    cursor: pointer;
+}
+
+#button5 {
+    background-color: #008080;
+    text-align: center;
+    cursor: pointer;
+}
+
+body #button1:active, #button2:active, #button3:active, #button4:active, #button5:active, #button6:active, #button7:active, #button8:active, #button9:active {
+    animation: none;
+    background-color: #fff;
+}
+
+ i {
+     color: #fff;
+     width: 150px;
+     height: 150px;
+     margin-top: 10px;
+     border-radius: 5px;  
+     font-size: 100px;
+     cursor: pointer;
+     display: grid;
+     grid-column-gap: 10px;
+     grid-row-gap: 10px;
+     grid-template-columns: auto auto auto;
+    }
+
+i:hover, #play:hover, #stop:hover {
+    animation: playbuttoneffect 2s infinite;
+}
+
+@keyframes playbuttoneffect {
+    0% {color: #ff00ff;}
+    25% {color: #663399;}
+    50% {color: #008080;}
+    75% {color: #6495ed;}
+    100% {color: #ff00ff;}
+}
+
+#play {
+    color: #fff;
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+#stop {
+    color: #fff;
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+    border-radius: 5px;
+}

@@ -15,7 +15,7 @@ window.addEventListener("load", function () {
         var sound = new Audio(allsamples[soundplay]);
         sound.play();
     }
-    // -------------- Teil 2 --------------
+    // -------------- Teil 2 -------------- (Grooooßes Dankeschön an die Hiwi Hannah)
     function playbeat() {
         var index = 0;
         setInterval(function () {

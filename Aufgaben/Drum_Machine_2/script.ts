@@ -5,6 +5,7 @@ var allsamples: string [] = ["samples/A.mp3", "samples/C.mp3", "samples/F.mp3", 
 var pb: HTMLElement = document.querySelector("#play");
 var player: number;
 var recording: boolean = false;
+var dreisamples: string[] = ["samples/kick.mp3", "samples/kick.mp3", "samples/snare.mp3"];
 
 // -------------- 7.1 --------------
 
@@ -28,7 +29,7 @@ function playSample(soundplay: number): void {
    sound.play();
 
    if (recording == true) {
-        playbeat.push(allsamples[soundplay]);
+        dreisamples.push(allsamples[soundplay]);
     }
 } 
 
@@ -49,13 +50,13 @@ pb.addEventListener("click", function(): void {
 function playbeat(): void {
     var index: number = 0;
     player = setInterval (function(): void {
-        var beat: HTMLAudioElement = new Audio(allsamples[index]);
+        var beat: HTMLAudioElement = new Audio(dreisamples[index]);
         beat.play();
         index += 1; 
-        if (index > 5) { 
+        if (index >= dreisamples.length) { 
             index = 0; 
         }
-    },                    500);
+    },                    550);
 }
 
 
@@ -64,19 +65,19 @@ function playbeat(): void {
 document.querySelector("#mic").addEventListener("click", function(): void {letsrecord(); });
 
 function letsrecord(): void {
-    if (recording == false) {
-        recording = true;
-    } else {
+    if (recording) {
         recording = false;
+    } else {
+        recording = true;
     }
-   
+}
     
 // Delete - Button
     
 document.querySelector("#trash").addEventListener("click", function(): void {stopmusic(); });
     
 function stopmusic(): void {
-    playbeat = [0, 1, 2, 3, 4];
+    dreisamples.length = 3;
 }
     
 });

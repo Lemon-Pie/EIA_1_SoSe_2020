@@ -1,12 +1,3 @@
-/* Hannah HELP PLEASE
-Ich weiß nicht wie ich den Zähler zum laufen bringe.
-Ich habe das hier in Zeile 60 eingefügt:
-var total: HTMLElement = document.querySelector("#summe");
-total.innerHTML = LIST.length;
-Und er zählt alles was neu hinzukommt ab dem alten Wert.
-Ich schnalle nicht wie ich das mit meiner Konstellation machen soll. 
-*/
-
 // select the elements
 
 const list = document.getElementById("list"); // Wo die Items sind

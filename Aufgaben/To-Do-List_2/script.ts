@@ -1,4 +1,5 @@
-/**
+/** Mithilfe von Hiwi Markus und Anna Kaufmann im Praktikum gelöst  
+ * 
  * Die ToDos werden in dem Array todosText gespeichert
  * Jedes ToDo hat aber, neben dem ToDo-Text, einen zweiten
  * Wert, nämlich ob es done ist oder nicht

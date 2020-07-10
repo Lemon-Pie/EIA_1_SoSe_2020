@@ -2,12 +2,14 @@ declare var Artyom: any;
 
 window.addEventListener("load", function(): void {
     const artyom: any = new Artyom();
-    
+
     artyom.addCommands({
         indexes: ["erstelle Aufgabe *"],
         smart: true,
         action: function(i: any, wildcard: string): void {
             console.log("Neue Aufgabe wird erstellt: " + wildcard);
+            todoliste.unshift({todoText: wildcard, todosChecked: false});
+            drawListToDOM();
         }
     });
     
@@ -33,7 +35,7 @@ window.addEventListener("load", function(): void {
     
 });
 
-    /*
+
 const artyom = new Artyom();
 
 // Add a single command
@@ -72,7 +74,4 @@ artyom.say("My database is not big enough, I don't know who is " + wildcard);
 }
 }
 }
-},
-{
-
-    */
+}];
